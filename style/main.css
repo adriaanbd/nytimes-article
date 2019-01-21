@@ -82,7 +82,6 @@ svg {
 }
 
 #nav-left {
-  float: left;
   width: 30%;
   margin-top: 0.4em;
   
@@ -225,12 +224,10 @@ iframe {
 
 #date-social, #comment-social {
   width: 100%;
-  display: inline-block;
 }
 
 #date,
 #comment-button {
-  float: left;
   margin-top: 1.4em;
 }
 
@@ -263,7 +260,6 @@ footer {
 }
 
 .footer-ul-container {
-  float: left;
   width: 16.66%;
 }
 
@@ -278,7 +274,6 @@ footer {
 
 .subscribe-icon {
   color: #000;
-  display: inline-block;
   text-transform: capitalize;
   font-size: 1em;
   font-weight: 700;
@@ -287,7 +282,6 @@ footer {
   padding-bottom: 0;
 }
 .subscribe-icon svg {
-  display: inline-block;
   height: 13px;
   width: 13px;
   margin-right: 5px;
@@ -338,11 +332,7 @@ footer {
   width: 100%;
 }
 
-.copyright {
-  display: inline-block;
-}
 .copyright-li {
-  float: left;
   font-size: 11px;
   margin: 1em;
 }
@@ -384,7 +374,6 @@ hr {
 .pick-img {
   width: 71px;
   height: 71px;
-  float: left;
   margin-right: 1em;
 }
 
@@ -406,6 +395,19 @@ hr {
   padding: 11px 12px 8px;
 }
 
+#nav-left,
+#date,
+#comment-button,
+.footer-ul-container,
+.copyright-li,
+.pick-img {
+  float: left;
+}
 
-
-
+#date-social, 
+#comment-social,
+.subscribe-icon,
+.subscribe-icon svg,
+.copyright {
+  display: inline-block;
+}
