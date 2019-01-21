@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,500,500i,600,600i,700,700i,800,800i');
+html {
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+}
+
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+#main-nav {
+  display: block;
+  position: sticky;
+  box-shadow: 1px 1px rgb(226, 226, 226);
+}
+
+button {
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 11px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #326891; 
+}
+
+#nav-right {
+  margin-right: 2em;
+}
+
+#nav-right button{
+  padding: 11px 12px 8px;
+  float:right;
+  margin-right: 1em;
+}
+
+#comment-button button {
+  padding: 11px 70px;
+}
+
+
+svg {
+  width: 225px;
+  height: 31px;
+}
+
+#brand-title {
+  float:left;
+  width: 40%;
+  text-align: center;
+}
+
+#nav-left {
+  width: 30%;
+  margin-top: 0.4em;
+  
+}
+
+#nav-left a{
+  font-size: 13px;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#nav-left a:hover {
+  text-decoration: underline;
+}
+
+#nav-left * {
+  margin-left: 2em;
+}
+
+#clear {
+  clear: left;
+}
+
+#home-link {
+  float: right;
+  color: rgb(98, 136, 165);
+  line-height: 11px;
+  font-size: 11px;
+}
+
+.clear {
+  clear: both;
+}
+
+#author {
+  font-size: 1em;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-envelope, .fa-share {
+  color: #000;
+}
+
+.fa-circle {
+  color: #eee;
+}
+
+.fa-stack {
+  margin-top: 1em;
+}
+
+.fa-stack:hover .fa-circle {
+  color: #fff;
+}
+
+.right-social {
+  float: right;
+  margin-top: 1em;
+  
+}
+.right-social a {
+  color: #666;
+  margin-left: 1em;
+}
+.right-social a:hover {
+  color: #888;
+}
+
+/*** MAIN CONTENT ***/
+
+#main-title {
+  margin: 0 30%;
+}
+
+#title { 
+  color: #121212;
+  font-size: 29px;
+  max-width: 346.152px;
+}
+
+main {
+  position: relative;
+}
+
+#main-content {
+  margin: 3em 28%;
+}
+
+#main-image {
+  margin: 0 15%;
+}
+
+.caption-text {
+  font-size: 0.9375em;
+  line-height: 1.25em;
+  text-align: left;
+  color: #666;
+}
+
+.caption-subtext {
+  color: #888;
+  font-size: 0.75em;
+  font-weight: 500;
+}
+
+.end-main-links {
+  color: #888;
+}
+
+.end-main-links:hover {
+  text-decoration: underline;
+}
+
+iframe {
+  border: none;
+}
+
+#inflation-theory, #stanford-iframe, #telescope {
+  width: 100%;
+}
+
+#inflation-caption {
+  font-size: 0.875em;
+}
+
+#inflation-subcaption {
+  font-size: 0.875rem;
+  font-weight: 250;
+  line-height: 1.125rem;
+  font-style: normal;
+  margin: 2em 0 3em;
+}
+
+#main-image img {
+  height: auto;
+  width: 100%;
+  cursor: pointer;
+}
+
+#date-social, #comment-social {
+  width: 100%;
+}
+
+#date,
+#comment-button {
+  margin-top: 1.4em;
+}
+
+
+#social{
+  float: right;
+  margin-bottom: 1.2em;
+}
+
+#bottom-social {
+  float: right;
+  margin-top: 0.4em;
+}
+
+
+.article-media {
+  width: 100%;
+  margin: 2em 0;
+}
+
+.text-content {
+  font-size: 1.1875rem;
+  line-height: 1.8125rem;
+  margin-bottom: 1.25rem;
+}
+
+/*** FOOTER ***/
+footer {
+  margin: 2em;
+}
+
+.footer-ul-container {
+  width: 16.66%;
+}
+
+.footer-ul-container h3 {
+  text-transform: uppercase;
+}
+
+#subscribe-section {
+  border-left: 1px solid grey;
+  padding-left: 0.8em;
+}
+
+.subscribe-icon {
+  color: #000;
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  padding-bottom: 0;
+}
+.subscribe-icon svg {
+  height: 13px;
+  width: 13px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.footer-ul-title {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  height: 25px;
+  color: rgb(51, 51, 51)
+}
+
+.footer-li {
+  font-size: 14px;
+  line-height: 16px;
+  height: 23px;
+  font-weight: 500;
+  color: black;
+}
+
+.footer-li a:visited, .footer-li a:link {
+  color: black;
+}
+
+.footer-link-bottom-right {
+  font-size: 11px;
+  font-weight: 500;
+  color: black;
+}
+
+.footer-link-bottom-right a:visited, .footer-link-bottom-right a:link {
+  color: black;
+}
+
+#corporate-links {
+  border-bottom: 0.5px solid rgb(153, 153, 153);
+  padding-bottom: 0.8em;
+}
+
+#application-links {
+  padding-top: 0.8em;
+}
+
+#footer-copyright {
+  text-align: center;
+  width: 100%;
+}
+
+.copyright-li {
+  font-size: 11px;
+  margin: 1em;
+}
+
+hr {
+  color: rgb(153, 153, 153);
+}
+
+.copyright-li a:visited, .copyright-li a:link {
+    color: rgb(153, 153, 153);
+}
+
+.side-box {
+  position: absolute;
+}
+
+#science-times {
+  top: 158em;
+  right: 4.5em;
+  width: 200px;
+}
+
+#editors-picks {
+  top: 104em;
+  right: 3em;
+  width: 240px;
+}
+
+.pick-wrapper {
+  width: 100%;
+  margin: 1em 0;
+}
+
+
+.pick-link {
+  width: 100%;
+}
+
+.pick-img {
+  width: 71px;
+  height: 71px;
+  margin-right: 1em;
+}
+
+.pick-text {
+  font-size: 13px;
+  text-align: left;
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+  margin-left: 1em;
+}
+
+.pick-link:hover .pick-text {
+  text-decoration: underline;
+}
+
+#sign-up {
+  width: 100%;
+  margin-top: 1em;
+  padding: 11px 12px 8px;
+}
+
+#nav-left,
+#date,
+#comment-button,
+.footer-ul-container,
+.copyright-li,
+.pick-img {
+  float: left;
+}
+
+#date-social, 
+#comment-social,
+.subscribe-icon,
+.subscribe-icon svg,
+.copyright {
+  display: inline-block;
+}
